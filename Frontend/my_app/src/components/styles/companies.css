@@ -1,0 +1,240 @@
+/* Companies.css */
+.featured-companies {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .featured-companies h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .filter-button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .company-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .company-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .company-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .company-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .company-card h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .company-card .rating {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .company-card .rating span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .company-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .view-jobs {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-jobs:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-all-companies {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .view-all-companies:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Companies.css */
+
+/* Existing styles */
+
+/* Optional: Add a smooth transition for the "View All" button */
+.company-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transition: max-height 0.3s ease;
+  }
+  
+  .company-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .company-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button styles */
+  .view-all-companies {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .view-all-companies:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-jobs {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .view-jobs:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-all-companies {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .view-all-companies:hover {
+    background-color: #218838;
+  }
+  
+  .featured-companies {
+    padding: 20px;
+  }
+  
+  .company-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .company-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .company-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .company-card h4 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .company-card .rating {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .company-card .rating span {
+    color: #333;
+  }
+  
+  .more-info {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    text-align: left;
+  }
+  

@@ -1,0 +1,82 @@
+/* PostJob container styling */
+.post-job-container {
+  display: flex;
+}
+
+/* Content area styling */
+.post-job-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1;
+  margin-left: 250px; /* Adjust if needed based on sidebar width */
+}
+
+/* Form container styling */
+.post-job-form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Posted jobs container styling */
+.posted-jobs-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+/* PostJob container styling */
+.post-job-container {
+  display: flex;
+}
+
+/* Content area styling */
+.post-job-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin-left: 250px; /* Adjust if needed based on sidebar width */
+}
+
+/* Form container styling */
+.post-job-form-container {
+  flex: 1; /* This makes the form container take equal width */
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px; /* Space between columns */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Posted jobs container styling */
+.posted-jobs-container {
+  flex: 1; /* This makes the posted jobs container take equal width */
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}

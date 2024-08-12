@@ -1,0 +1,275 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgb(232, 229, 222),white);
+  
+}
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel {
+  justify-content: center;
+  margin-left: 270px;
+  padding: 50px 0; 
+  width: 790px;
+  height: 360px;
+  background: #918e8e;
+  text-align: center;
+  
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: #000; /* Change this to the color you want for the arrows */
+}
+
+
+.success-card {
+  width: 210px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ecebeb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-card img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.success-card h4 {
+  margin: 10px 0;
+}
+
+.success-card p {
+  color: #777;
+}
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.search-bar select {
+  width: 200px;
+}
+
+.search-bar .search-button {
+  padding: 10px 20px;
+  background-color: #f60000f0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: ridge;
+  box-shadow: black 1.5px 1.5px;
+  border-color: black;
+}
+
+.search-bar .search-button:active {
+  transform: translateY(4px);
+}
+
+.search-bar .search-button:hover {
+  background-color: #ffffff;
+  color: #000;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Other styles unchanged */
+.promotion {
+  background-color: #9ab4afcb;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.promotion h3 {
+  margin-bottom: 10px;
+}
+
+.featured-companies {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(241, 240, 240);
+}
+
+.featured-companies h3 {
+  margin-bottom: 20px;
+}
+
+.company-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.company-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.company-card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.company-card .rating {
+  margin: 10px 0;
+}
+
+.company-card .rating span {
+  color: #777;
+}
+
+.view-jobs {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-all-companies {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #002aff;
+  color: #0015ff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: black 2px 2px;
+}
+
+.view-all-companies:hover {
+  background-color: rgb(68, 111, 238);
+  color: white;
+}
+
+.view-all-companies:active {
+  transform: translateY(3px);
+}
+
+.explore-button {
+  border-radius: 10px;
+  height: 36px;
+  cursor: pointer;
+  box-shadow: 3px 4px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.explore-button:hover {
+  background-color: #579fec;
+}
+
+.explore-button:active {
+  transform: translateY(3px);
+}
+
+/* Sponsored companies section */
+.sponsored-companies {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #d1a251ec;
+}
+
+.sponsored-companies h3 {
+  margin-bottom: 20px;
+}
+
+.sponsored-company-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sponsored-company-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.sponsored-company-card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.sponsored-company-card h4 {
+  margin: 10px 0;
+}
+
+.sponsored-company-card p {
+  color: #777;
+}
+
+.hi2 {
+  background-image: url('https://images.unsplash.com/photo-1653669487003-7d89b2020f3c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; /* This makes the image cover the entire div */
+  
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: rgb(6, 6, 6); 
+}
+
+.hi3{
+  color: white;
+  background-color: #0000004d;
+}
+
+.jk{
+  color: rgb(255, 255, 255);
+}
+
+.jk1{
+  color: #ffffff;
+}

@@ -1,0 +1,283 @@
+/* Navbar styling */
+.navbar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  transition: transform 0.3s ease; 
+}
+
+/* Companies page layout */
+.companies-page {
+  display: flex;
+  background-color: white; 
+}
+
+/* Sidebar styling */
+.sidebar1 {
+  width: 250px; 
+  padding: 20px;
+  background-color: #d5dde7;
+  border-right: 1px solid #ddd;
+  position: fixed;
+  height: calc(100vh - 60px); 
+  overflow-y: auto;
+  top: 60px; 
+  left: 0;
+}
+
+/* Content section styling */
+.content2 {
+  margin-left: 230px; 
+  margin-top: 2px; 
+  padding: 20px;
+  flex: 1;
+  background-color: white;
+}
+
+/* Featured companies section */
+.featured-companies1 {
+  padding: 20px;
+}
+
+.featured-companies1 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Company cards layout */
+.company-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.company-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.company-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.company-card img {
+  width: 60px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.company-card h4 {
+  margin-top: 10px;
+  color: #002d62;
+  font-size: 18px;
+}
+
+.company-card .rating {
+  font-size: 14px;
+  color: #888;
+}
+
+.company-card .rating span {
+  font-size: 12px;
+}
+
+.company-card p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.company-card .view-jobs {
+  background-color: rgb(47, 77, 226);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.company-card .view-jobs:active {
+  transform: translateY(3px);
+}
+
+.company-card .view-jobs:hover {
+  background-color: #0b5fbe;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+  .sidebar1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .content2 {
+    margin-left: 0;
+    margin-top: 0; /* Adjust if needed */
+  }
+}
+
+/* Additional styling */
+.ti {
+  padding-left: 350px;
+}
+
+.filter-group {
+  margin-bottom: 20px; /* Add space between filter groups */
+}
+
+.filter-group label {
+  display: block; /* Stack labels vertically */
+  margin-bottom: 10px; /* Add space between each checkbox */
+}
+
+.filter-group input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label text */
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* Adjust width as needed */
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form input[type="search"] {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 25px 0 0 25px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.search-form input[type="search"]::placeholder {
+  color: #888;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0067d6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.search-button:active {
+  transform: translateY(2px);
+}
+
+/* Additional styles for sidebar and company cards */
+.sidebar1 {
+  padding: 15px;
+  border-right: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.filter-section, .filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-section label, .filter-group h4 {
+  font-weight: bold;
+}
+
+.filter-section select, .filter-group label {
+  display: block;
+  margin-top: 5px;
+}
+
+.filter-group label {
+  margin-top: 10px;
+}
+
+.company-card {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.company-card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.company-card h4 {
+  margin: 10px 0;
+}
+
+.company-card .rating {
+  font-weight: bold;
+}
+
+.company-card .view-jobs {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.company-card .view-jobs:hover {
+  background-color: #0056b3;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ddd;
+}
+
+.search-form .search-button {
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form .search-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,49 @@
+/* src/RemoveJobPage.css */
+.remove-job-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .job-card7 {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-card7 h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #e60000;
+  }
+  
+  p {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+  }
+  

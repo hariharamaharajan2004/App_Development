@@ -1,0 +1,102 @@
+.about-us-container {
+  font-family: Arial, sans-serif;
+}
+
+.header-background {
+  background-image: url('about1.png');
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.142);
+  margin: 0 auto;
+}
+
+.header-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.header-content p {
+  font-size: 1.2em;
+}
+
+.main-content {
+  padding: 20px;
+  margin-left: 2px;
+}
+
+.mission, .values, .team {
+  margin-bottom: 40px;
+}
+
+.values {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.value-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.value-card {
+  flex: 1;
+  margin: 0 9px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.title57{
+  margin-left: 2px;
+  
+}
+
+.ab1{
+    color: rgb(240, 238, 238);
+}

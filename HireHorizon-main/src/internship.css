@@ -1,0 +1,110 @@
+/* Container for the internship cards */
+.internship-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between cards */
+    padding: 50px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  /* Individual internship card */
+  .internship-card {
+    background: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clip content */
+    text-align: center; /* Center text */
+  }
+  
+  /* Image styling */
+  .internship-image {
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Cover the container */
+  }
+  
+  /* Content area inside the card */
+  .internship-content {
+    padding: 15px; /* Padding around content */
+  }
+  
+  /* Internship title styling */
+  .internship-content h3 {
+    font-size: 1.2em; /* Larger font size */
+    margin: 0 0 10px; /* Margin below title */
+  }
+  
+  /* Company name styling */
+  .internship-content h4 {
+    font-size: 1em; /* Regular font size */
+    color: #007bff; /* Primary color */
+    margin: 0 0 10px; /* Margin below company name */
+  }
+  
+  /* Description text styling */
+  .internship-content p {
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #666; /* Gray color */
+    margin: 0 0 20px; /* Margin below description */
+  }
+  
+  /* Apply button styling */
+  .apply-button77 {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff; /* Primary color */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    border: none;
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  /* Apply button hover effect */
+  .apply-button77:hover {
+    background: #08417e; /* Darker shade on hover */
+  }
+  
+/* Popup message styling */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    z-index: 1000; /* Ensure it is on top of other content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* White box inside popup */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+
+  .popup-box {
+    background: #fff; /* White background */
+    height: 30px;
+    width: 200px;
+    color: #28a745; /* Success color */
+    padding: 20px;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+  }
+  
+  

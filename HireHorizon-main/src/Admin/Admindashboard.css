@@ -1,0 +1,89 @@
+/* Admin Dashboard Layout */
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Prevents scroll on the main container */
+}
+
+.main-content {
+  margin-left: 3px; /* Space for the sidebar */
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Allows vertical scrolling */
+  width: 100%;
+}
+
+/* Optional styling for content sections */
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.charts-wrapper {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-wrapper1 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.chart-wrapper2 {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: rgb(244, 242, 242);
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.notifications, .activity-logs {
+  margin-top: 20px;
+}
+
+.notifications ul, .activity-logs ul {
+  list-style: none;  
+  padding: 0;
+}
+
+.notifications li, .activity-logs li {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.ti9 {
+  margin-left: 3px;
+}
+
+/* New styles for overview and job postings sections */
+.overview-section, .job-postings-section {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px;
+  height: 500px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.overview-section h2, .job-postings-section h2 {
+  margin-top: 0;
+}

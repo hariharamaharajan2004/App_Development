@@ -50,6 +50,8 @@ function Navbar() {
           <Button color="inherit" onClick={() => handleNavigation('/companies')}>Company</Button>
           <Button color="inherit" onClick={() => handleNavigation('/jobsearch')}>Jobs</Button>
           <Button color="inherit" onClick={() => handleNavigation('/services')}>Services</Button>
+          <Button color="inherit" onClick={() => handleNavigation('/ContactUs')}>ContactUs</Button>
+          <Button color="inherit" onClick={() => handleNavigation('/FAQ')}>FAQ</Button>
         </Box>
         <IconButton edge="end" color="inherit" onClick={handleMenuOpen}>
           <Avatar alt="Profile Photo" src={profilePhoto} />

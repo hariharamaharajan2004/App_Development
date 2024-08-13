@@ -16,6 +16,8 @@ import Mentor from './mentor.js';
 import Internship from './internship.js';
 import Addjobs from './Admin/Addjob.js';
 import RemoveJobPage from './removejob.js';
+import ContactUs from './ContactUs.js';
+import FAQ from './FAQ.js';
 import View2 from './view2.js';
 import View3 from './view3.js';
 import View4 from './view4.js';
@@ -50,6 +52,8 @@ function App() {
               <Route path="/removejob" element={<RemoveJobPage />} />
               <Route path="/removecompanies" element={<RemoveCompanies />} />
               <Route path="/addcompanies" element={<AddCompanies />} />
+              <Route path="/ContactUs" element={<ContactUs />} />
+              <Route path="/FAQ" element={<FAQ />} />
               <Route path="/" element={<Login />} />
 
 
